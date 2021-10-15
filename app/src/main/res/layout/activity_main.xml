@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/background"
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:onClick="stepOnHelloPage"
+            style="@style/TitleActionButton"
+            android:text="@string/btn_welcome" />
+
+        <TextView
+            android:onClick="toastCalcPol"
+            style="@style/TitleActionButton"
+            android:text="@string/btn_calculate_pol" />
+
+        <TextView
+            android:onClick="toastCalcSPol"
+            style="@style/TitleActionButton"
+            android:text="@string/btn_calculate_spol" />
+
+        <TextView
+            android:onClick="toastCalcStd"
+            style="@style/TitleActionButton"
+            android:text="@string/btn_calculate_std" />
+
+        <TextView
+            android:onClick="toastSnakeGame"
+            style="@style/TitleActionButton"
+            android:text="@string/btn_snake" />
+
+        <TextView
+            style="@style/TitleActionButton"
+            android:text="@string/btn_calculate_std" />
+        <TextView
+            style="@style/TitleActionButton"
+            android:text="@string/btn_calculate_std" />
+        <TextView
+            style="@style/TitleActionButton"
+            android:text="@string/btn_calculate_std" />
+        <TextView
+            style="@style/TitleActionButton"
+            android:text="@string/btn_calculate_std" />
+        <TextView
+            style="@style/TitleActionButton"
+            android:text="@string/btn_calculate_std" />
+        <TextView
+            style="@style/TitleActionButton"
+            android:text="@string/btn_calculate_std" />
+
+    </LinearLayout>
+
+</ScrollView>
